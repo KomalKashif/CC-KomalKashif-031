@@ -1,0 +1,14 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# SSH private keys
+*.pem
+
+# Terraform variables (if sensitive)
+terraform.tfvars
+
+# OS files
+.DS_Store
+Thumbs.db
